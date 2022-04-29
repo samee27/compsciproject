@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/ccbd4d6bc1.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Weather App</title>
+</head>
+<body>
+  <div class="application">
+  <div class="box">
+	<div>
+	  <h1 class="temp">10°C</h1>
+	  <div class="city-time">
+	    <h1 class="name">London</h1>
+		<small>
+      <span class="time">07:30</span>
+      - <span class="date">Monday Nov 27</span>
+    </small>
+	  </div>
+	  <div class="weather">
+	    <img src="./icons/day/113.png" class="icon" alt="icon" width="50" height="50">
+		<span class="condition">Cloudy</span>
+	  </div>
+	</div>
+	</div>
+	<div class="panel">
+	  <form id="locationInput">
+	    <input type="text" class="search" placeholder="Search Location...">
+		<button type="submit" class="submit">
+		  <i class="fas fa-search"></i>
+		</button>
+	  </form>
+	 
+	  <ul class="details">
+	    <h4>Current Information</h4>
+	    <li>
+		  <span>Cloudy</span>
+		  <span class="cloud">89%</span>
+		</li>
+		<li>
+		  <span>Humidity</span>
+		  <span class="humidity">64%</span>
+		</li>
+		<li>
+		  <span>Wind</span>
+		  <span class="wind">8 mph</span>
+		</li>
+	  </ul>
+	</div>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
